@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
+<defs>
+  <radialGradient id="g" cx="50%" cy="42%" r="70%"><stop offset="0" stop-color="#ffffff" stop-opacity=".95"/><stop offset=".18" stop-color="#161821"/><stop offset=".62" stop-color="#ffcf4a"/><stop offset="1" stop-color="#080b14"/></radialGradient>
+  <linearGradient id="m" x1="0" x2="1"><stop stop-color="#161821"/><stop offset="1" stop-color="#ffcf4a"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="900" height="720" rx="46" fill="#080b14"/>
+<rect x="24" y="24" width="852" height="672" rx="40" fill="url(#g)" opacity=".9"/>
+<g opacity=".35" stroke="#fff" stroke-width="2">
+  <path d="M0 120 H900M0 600H900"/><path d="M130 0 L840 720M760 0 L80 720"/>
+</g>
+<circle cx="450" cy="324" r="210" fill="#000" opacity=".28"/>
+<g transform="translate(450 322)" filter="url(#glow)">
+  <circle r="184" fill="none" stroke="url(#m)" stroke-width="22"/>
+  <circle r="130" fill="#101525" stroke="#fff" stroke-opacity=".5" stroke-width="8"/>
+  <path d="M0-172 L36-50 L165-65 L60 18 L105 145 L0 68 L-105 145 L-60 18 L-165-65 L-36-50Z" fill="url(#m)" stroke="#fff" stroke-opacity=".75" stroke-width="6"/>
+  <circle r="56" fill="#fff" opacity=".92"/>
+  <circle r="34" fill="#0b1020"/>
+</g>
+<text x="54" y="86" font-family="Arial Black,Noto Sans TC,sans-serif" font-size="54" fill="#fff" stroke="#000" stroke-width="8" paint-order="stroke">LAST ONE</text>
+<text x="56" y="642" font-family="Arial Black,Noto Sans TC,sans-serif" font-size="46" fill="#fff" stroke="#000" stroke-width="7" paint-order="stroke">最後賞限定</text>
+<text x="682" y="646" font-family="Arial Black,Noto Sans TC,sans-serif" font-size="24" fill="#fff" opacity=".75">WANWAN KUJI</text>
+</svg>

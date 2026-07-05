@@ -1,0 +1,69 @@
+{
+  "settings": {
+    "brand": "萬萬沒想到",
+    "campaignName": "戰鬥陀螺線上一番賞 第 1 彈",
+    "coinRate": 1,
+    "notice": "本期主打：每抽必中、A賞庫存透明、最後賞倒數開放。",
+    "bankAccount": "銀行代碼 / 帳號 / 戶名：請於環境參數 BANK_ACCOUNT 設定"
+  },
+  "banners": [
+    {"id":"bn1","title":"BX 極限對決賞池","subtitle":"A賞限定戰鬥陀螺套組｜最後賞倒數中","image":"/assets/products/bx01.svg","cta":"立即挑戰"},
+    {"id":"bn2","title":"新手 10 抽任務","subtitle":"登入會員即開啟任務牆，累積點數可折抵。","image":"/assets/products/mystery.svg","cta":"看任務"}
+  ],
+  "categories": ["全部", "戰鬥陀螺", "限定賞", "發射器", "戰鬥盤", "補充包", "預購"],
+  "products": [
+    {"id":"prd_bx01","category":"戰鬥陀螺","name":"BX-01 攻擊型戰鬥陀螺","price":399,"stock":28,"image":"/assets/products/bx01.svg","tag":"熱門","soldOut":false,"description":"高攻擊主軸，適合新手入門與對戰收藏。"},
+    {"id":"prd_ux09","category":"限定賞","name":"UX-09 黃金限定戰鬥陀螺","price":680,"stock":9,"image":"/assets/products/ux09.svg","tag":"限量","soldOut":false,"description":"金色塗裝版，適合收藏玩家。"},
+    {"id":"prd_stadium","category":"戰鬥盤","name":"官方競技戰鬥盤","price":990,"stock":6,"image":"/assets/products/stadium.svg","tag":"大件","soldOut":false,"description":"活動與玩家對戰建議入手。"},
+    {"id":"prd_launcher","category":"發射器","name":"強化發射器套組","price":450,"stock":18,"image":"/assets/products/launcher.svg","tag":"配件","soldOut":false,"description":"提高發射穩定度，適合進階玩家。"},
+    {"id":"prd_coin_1000","category":"儲值","name":"1000 代幣包","price":1000,"stock":9999,"image":"/assets/products/coin.svg","tag":"儲值","soldOut":false,"description":"可用於線上一番賞抽賞。"}
+  ],
+  "pools": [
+    {
+      "id":"pool_bx_01",
+      "title":"BX 極限爆裂賞池",
+      "subtitle":"戰鬥陀螺限定池｜每抽 100 代幣",
+      "category":"戰鬥陀螺",
+      "cover":"/assets/products/mystery.svg",
+      "priceCoins":100,
+      "status":"active",
+      "featured":true,
+      "lastOneEnabled":true,
+      "lastOnePrize":{"id":"last_bx_black","rank":"最後賞","name":"限定黑金戰鬥陀螺","stock":1,"image":"/assets/products/lastone.svg","physical":true},
+      "prizes":[
+        {"id":"prz_a_bx","rank":"A賞","name":"限定戰鬥陀螺套組","stock":3,"initialStock":3,"weight":1,"image":"/assets/products/bx01.svg","physical":true},
+        {"id":"prz_b_arena","rank":"B賞","name":"官方競技戰鬥盤","stock":6,"initialStock":6,"weight":3,"image":"/assets/products/stadium.svg","physical":true},
+        {"id":"prz_c_launcher","rank":"C賞","name":"強化發射器","stock":15,"initialStock":15,"weight":7,"image":"/assets/products/launcher.svg","physical":true},
+        {"id":"prz_d_coupon","rank":"D賞","name":"50 元購物折扣券","stock":90,"initialStock":90,"weight":20,"image":"/assets/products/coupon.svg","physical":false},
+        {"id":"prz_e_points","rank":"E賞","name":"20 會員點數","stock":200,"initialStock":200,"weight":40,"image":"/assets/products/coin.svg","physical":false}
+      ]
+    },
+    {
+      "id":"pool_gold_02",
+      "title":"黃金傳說賞池",
+      "subtitle":"高稀有收藏向｜每抽 180 代幣",
+      "category":"限定賞",
+      "cover":"/assets/products/ux09.svg",
+      "priceCoins":180,
+      "status":"active",
+      "featured":true,
+      "lastOneEnabled":false,
+      "lastOnePrize":null,
+      "prizes":[
+        {"id":"prz_a_gold","rank":"A賞","name":"黃金限定 UX-09","stock":2,"initialStock":2,"weight":1,"image":"/assets/products/ux09.svg","physical":true},
+        {"id":"prz_b_box","rank":"B賞","name":"神秘戰鬥盒","stock":8,"initialStock":8,"weight":4,"image":"/assets/products/mystery.svg","physical":true},
+        {"id":"prz_c_coupon","rank":"C賞","name":"100 元折扣券","stock":60,"initialStock":60,"weight":20,"image":"/assets/products/coupon.svg","physical":false}
+      ]
+    }
+  ],
+  "customers": [],
+  "orders": [],
+  "payments": [],
+  "draws": [],
+  "shipments": [],
+  "announcements": [
+    {"id":"a1","title":"今日 20:00 新池上架","body":"BX 極限爆裂賞池剩餘獎項即時更新。"},
+    {"id":"a2","title":"寄件提醒","body":"中實體獎項後請於 7 日內填寫寄件資料。"}
+  ],
+  "logs": []
+}

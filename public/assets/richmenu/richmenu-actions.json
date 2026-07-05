@@ -1,0 +1,45 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "pages": [
+    {
+      "alias": "richmenu-home",
+      "image": "page1.png",
+      "areas": [
+        "/oripa",
+        "/shop",
+        "/member",
+        "/support",
+        "/",
+        "/support"
+      ]
+    },
+    {
+      "alias": "richmenu-records",
+      "image": "page2.png",
+      "areas": [
+        "/member",
+        "/member",
+        "/member",
+        "/member",
+        "/member",
+        "/member"
+      ]
+    },
+    {
+      "alias": "richmenu-about",
+      "image": "page3.png",
+      "areas": [
+        "/shop",
+        "/oripa",
+        "/support",
+        "/support",
+        "/support",
+        "/"
+      ]
+    }
+  ],
+  "note": "每頁 3x2 區塊，請上傳 LINE 官方後台或透過 Messaging API 建立 Rich Menu Alias 後切換。"
+}
